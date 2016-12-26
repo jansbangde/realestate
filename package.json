@@ -1,0 +1,28 @@
+{
+  "name": "test1208",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jansbangde/Real-estate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^2.0.0",
+    "http-proxy-middleware": "^0.17.3"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "http-proxy-middleware": "^0.17.3",
+    "sha1": "^1.1.1"
+  }
+}

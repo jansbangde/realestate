@@ -1,0 +1,1 @@
+var check=document.getElementsByClassName("check")[0];check.onclick=function(){var e=60;check.innerText=60;var c=setInterval(function(){console.log(e),check.innerText=--e,0==e&&(clearInterval(c),check.innerText="获取验证码")},1e3)},$(".login_back").on("tap",function(){window.history.go(-1)});

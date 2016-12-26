@@ -1,0 +1,88 @@
+@import '../info/myself.css';
+body {
+  padding-bottom: 50px;
+}
+.title_bg {
+  background: #fff;
+  padding: 10px 0;
+}
+.title {
+  width: 60%;
+  border: 1px solid #ea5404;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 5px;
+}
+.title span {
+  display: block;
+  flex: 1;
+  text-align: center;
+  line-height: 34px;
+  color: #ea5404;
+}
+.title span.active {
+  background: #ea5404;
+  color: #fff;
+}
+.title .title_text2 {
+  border-left: 1px solid #fbdccc;
+  border-right: 1px solid #fbdccc;
+}
+.notice {
+  width: 90%;
+  background: #fff;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 10px;
+  color: #666;
+}
+.notice .notice_box1 {
+  display: flex;
+  height: 40px;
+  border-bottom: 1px solid #efeff4;
+}
+.notice .notice_box1 .notice_box1_txt2 {
+  flex: 1;
+  display: block;
+  background: #15b755;
+  font-size: 12px;
+  color: #fff;
+  width: 50px;
+  height: 20px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 6px;
+  margin-right: 3px;
+}
+.notice .notice_box1 .notice_box1_txt1 {
+  display: block;
+  flex: 4;
+  line-height: 40px;
+}
+.notice .notice_box2 {
+  font-size: 14px;
+  margin: 15px 0;
+}
+.notice .notice_box3 {
+  width: 100%;
+  position: relative;
+}
+.notice .notice_box3 .notice_box3_txt1 {
+  display: block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  background: #efeff4;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.notice .notice_box3 .notice_box3_txt2 {
+  font-size: 12px;
+  line-height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
